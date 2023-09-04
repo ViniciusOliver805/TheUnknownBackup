@@ -1,0 +1,33 @@
+.container .sidenav .logo-insta img {
+    max-width: 24px;
+}
+
+.container .sidenav .logo-tiktok img {
+    max-width: 24px;
+}
+
+.container .sidenav {
+    
+    background-color: rgb(0, 0, 0);
+    width:55px;
+}
+
+.container .sidenav .nav-list .material-icons  {
+    color: white;
+}
+
+.container .sidenav .nav-list a h1  {
+    font-size: 16px;
+    color: white
+}
+
+.container .sidenav .nav-list .nomelogo {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.container .sidenav .nav-list i {
+    padding-right: 10px;
+}
+

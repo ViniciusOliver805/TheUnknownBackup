@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+
+    /* Isso faz com que a imagem de fundo ocupe toda a tela e fique fixa */
+}
+
+
+/* aqui eu posso colocar estilos que serao usado de forma global, se eu quisse cria um estilo padrao
+de fonte para todos componentes seria tipo
+font(poderia ser um nome qualquer)
+{
+    font tal 
+} 
+ai eu so colocaria o nome na classe tipo h1 class = font
+
+*/

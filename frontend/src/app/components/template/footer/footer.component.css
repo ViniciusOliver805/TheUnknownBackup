@@ -1,0 +1,49 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+
+    background-color: rgb(0, 0, 0);
+    z-index: 100;
+
+}
+
+.footer .centralizandoFooter {
+    vertical-align: middle;
+    color:white;
+    font-size: 1rem;
+    font-weight: 300;
+
+}
+@keyframes colorChange {
+    0% {
+      color: #FF0000; /* Red */
+    }
+    14% {
+      color: #FF7F00; /* Orange */
+    }
+    28% {
+      color: #FFFF00; /* Yellow */
+    }
+    42% {
+      color: #00FF00; /* Green */
+    }
+    57% {
+      color: #0000FF; /* Blue */
+    }
+    71% {
+      color: #4B0082; /* Indigo */
+    }
+    85% {
+      color: #9400D3; /* Violet */
+    }
+    100% {
+      color: #FF0000; /* Back to Red */
+    }
+  }
+.footer .centralizandoFooter .rgb {
+    animation: colorChange 5s infinite;
+
+}
