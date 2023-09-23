@@ -16,3 +16,5 @@ font(poderia ser um nome qualquer)
 ai eu so colocaria o nome na classe tipo h1 class = font
 
 */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
