@@ -14,7 +14,12 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
-import { VisaoGeralComponent } from './views/visao-geral/visao-geral.component'
+import { VisaoGeralComponent } from './components/template/visao-geral/visao-geral.component';
+import { SlideshowComponent } from './components/template/visao-geral/slideshow/slideshow.component';
+import { SteamComponent } from './components/template/visao-geral/steam/steam.component';
+import { MenuComponent } from './components/template/header/menu/menu.component';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatButtonModule} from '@angular/material/button';
 
 
 
@@ -25,7 +30,10 @@ import { VisaoGeralComponent } from './views/visao-geral/visao-geral.component'
     FooterComponent,
     NavComponent,
     HomeComponent,
-    VisaoGeralComponent
+    VisaoGeralComponent,
+    SlideshowComponent,
+    SteamComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +42,9 @@ import { VisaoGeralComponent } from './views/visao-geral/visao-geral.component'
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatMenuModule,
+    MatButtonModule  
   ],
   providers: [],
   bootstrap: [AppComponent]

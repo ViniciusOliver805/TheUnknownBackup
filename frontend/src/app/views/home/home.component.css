@@ -6,20 +6,18 @@
 
 .container .nomejogo img {
     max-width: 100%;
-    margin-top: -100px; /* Move a imagem para cima 300px */
+    margin-top: -100px; 
 }
 
 .container .trailer video {
-    width: 100%; /* Define a largura do vídeo para ocupar toda a largura do contêiner pai */
-    max-width: 800px; /* Define uma largura máxima para o vídeo */
+    width: 100%; 
+    max-width: 800px; 
     padding-left: 70px;
-    margin: 0 auto; /* Centraliza o vídeo horizontalmente */
-    display: block; /* Certifica-se de que o vídeo é tratado como um bloco */
+    margin: 0 auto; 
+    display: block; 
 }
 .h1texto h1 {
     background-color: grey;
 }
 
 
-
-/* Defina o estilo para o conteúdo do seu site */

@@ -1,3 +1,6 @@
+.container {
+    z-index: 1000;
+}
 .container .sidenav .logo-insta img {
     max-width: 24px;
 }

@@ -1,0 +1,35 @@
+.buynow {
+  width: 250px;
+  height: 30px;
+  position: absolute;
+  top: 2550px;
+  left: 540px;
+  box-sizing: border-box; 
+  transition: transform 0.3s ease;
+
+}
+
+.buynow:hover {
+  transform: scale(1.1); /* Ao passar o mouse, aumenta o tamanho em 10% (criando o efeito de projeção) */
+}
+
+.teste{
+  width: 250px;
+  height: 140px;
+}
+
+.h1text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #dddbdb; /* Cor azul, por exemplo */
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 1); /* Adiciona uma sombra esfumaçada */
+
+}
+
+img {
+  width: 150px;
+  height: auto;
+  margin-left: 50px;
+}
