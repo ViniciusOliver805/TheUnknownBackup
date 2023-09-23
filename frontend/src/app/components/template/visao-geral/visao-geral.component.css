@@ -41,12 +41,9 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(124, 123, 123, 0.2);
-  transition: all 0.3s ease-in-out;
 }
 
-.textooficial .titulo:hover {
-  transform: scale(1.1);
-}
+
 
 .textooficial .texto {
   width: 450px;
@@ -58,7 +55,7 @@
 }
 
 .textooficial .texto .destaque {
-  color: #6e5454; /* Cor de destaque (laranja) */
+  color: #ffffff; /* Cor de destaque (laranja) */
   font-weight: bold; /* Negrito para o destaque */
 }
 

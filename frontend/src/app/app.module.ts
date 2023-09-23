@@ -20,6 +20,7 @@ import { SteamComponent } from './components/template/visao-geral/steam/steam.co
 import { MenuComponent } from './components/template/header/menu/menu.component';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
+import { ContatoComponent } from './components/template/header/contato/contato.component';
 
 
 
@@ -33,7 +34,9 @@ import {MatButtonModule} from '@angular/material/button';
     VisaoGeralComponent,
     SlideshowComponent,
     SteamComponent,
-    MenuComponent
+    MenuComponent,
+    ContatoComponent,
+    
   ],
   imports: [
     BrowserModule,
